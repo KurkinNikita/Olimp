@@ -1,0 +1,11 @@
+Python
+a = open('pack.txt')
+p = []
+m = a.read()# читаю файл
+n = []
+n = n.append(m)# добавл€ю в массив
+for i in range(len(n) - 1):
+    if n[i] == '”ѕј ќ¬ ј' or n[i+1] == "”паковка" or n[i+2] == "упаковка":# поиск ключевого слова
+        u = p.append([for j in n: n[j]])# вписываю наименование товара
+print(u)
+
